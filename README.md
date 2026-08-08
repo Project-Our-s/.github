@@ -59,14 +59,14 @@ Welcome! We are a collaborative team building open-source tools, intelligent app
 <table align="center">
   <tr>
     <td align="center" width="160">
-      <a href="https://github.com/your-username-1">
+      <a href="https://github.com/swagatambordoloi">
         <img src="https://github.com/github.png" width="80px" style="border-radius: 50%;" alt="Lead Member"/><br />
         <sub><b>Swagatam</b></sub>
       </a><br />
       <sub>Data Science & ML Lead</sub>
     </td>
     <td align="center" width="160">
-      <a href="https://github.com/your-username-2">
+      <a href="https://github.com/simpi11-insightflow">
         <img src="https://github.com/github.png" width="80px" style="border-radius: 50%;" alt="Co-Lead Member"/><br />
         <sub><b>Simpi</b></sub>
       </a><br />
