@@ -1,88 +1,73 @@
-<!-- HEADER BANNER -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=220&section=header&text=Welcome%20to%20Our%20Org&fontSize=42&animation=fadeIn" width="100%" alt="Header Banner" />
-  
+
+  <!-- Minimal Monochrome Header Banner -->
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=180&text=THE%20COLLECTIVE&fontSize=38&fontColor=c9d1d9&stroke=30363d&strokeWidth=1" width="100%" alt="Header" />
+
   <br />
 
-  <!-- BADGES -->
-  <a href="#-about-us">
-    <img src="https://img.shields.io/badge/Focus-Open_Source_&_Innovation-6f42c1?style=for-the-badge&logo=github" alt="Focus" />
-  </a>
-  <a href="#-tech-stack">
-    <img src="https://img.shields.io/badge/Stack-Full--Stack_|_AI-007acc?style=for-the-badge&logo=visualstudiocode" alt="Stack" />
-  </a>
-  <a href="#-connect">
-    <img src="https://img.shields.io/badge/Community-Active-2ea44f?style=for-the-badge&logo=discord" alt="Community" />
-  </a>
+  <!-- Refined Flat Badges -->
+  <img src="https://img.shields.io/badge/EST._2026-0D1117?style=flat-square&labelColor=161B22&color=30363d" />
+  <img src="https://img.shields.io/badge/ARCHITECTURES-CLEAN-0D1117?style=flat-square&labelColor=161B22&color=30363d" />
+  <img src="https://img.shields.io/badge/FOCUS-OPEN_SOURCE-0D1117?style=flat-square&labelColor=161B22&color=30363d" />
+
 </div>
 
 <br />
 
-<!-- ABOUT US -->
-## 📌 About Us
-
-Welcome! We are a collaborative team building open-source tools, intelligent applications, and scalable systems. Our goal is to craft impactful software with clean architecture and seamless user experiences.
-
-* 🚀 **Core Focus**: Cross-platform development, AI systems, and cloud infrastructure.
-* 💡 **Mission**: Building open, efficient, and well-documented projects.
-* 🤝 **Contributions**: We welcome bug reports, feature suggestions, and pull requests!
+<blockquote align="center">
+  <i>"Simplicity is prerequisite for reliability."</i> — Edsger W. Dijkstra
+</blockquote>
 
 ---
 
-<!-- TECH STACK -->
-## 🛠️ Tech Stack & Tools
+### 🏛️ Overview
 
-<div align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
-</div>
+We focus on building long-lasting software, clean systems, and carefully engineered applications. Quality over quantity, always.
+
+* **Core Principles**: High performance, maintainable codebases, and thoughtful architecture.
+* **Ecosystem**: Systems engineering, cross-platform apps, and automated workflows.
 
 ---
 
-<!-- FEATURED PROJECTS -->
-## 🌟 Featured Projects
+### ✒️ Technologies & Tooling
 
-| Repository | Description | Status |
+`Python` &nbsp;•&nbsp; `TypeScript` &nbsp;•&nbsp; `Kotlin` &nbsp;•&nbsp; `Docker` &nbsp;•&nbsp; `MongoDB`
+
+---
+
+### 📜 Selected Works
+
+| Project | Domain | Status |
 | :--- | :--- | :---: |
-| **[project-one](#)** | High-performance API backend built with Python & FastAPI. | `Active` |
-| **[project-two](#)** | Modern cross-platform mobile app UI built in Jetpack Compose. | `In Development` |
-| **[project-three](#)** | Lightweight utility library for automated workflow pipelines. | `Stable` |
+| **`core-engine`** | Backend Systems & Services | `Production` |
+| **`studio-ui`** | Native Interfaces & Workflows | `Active` |
+| **`toolkit`** | Internal Libraries & Utilities | `Stable` |
 
 ---
 
-<!-- TEAM MEMBERS -->
-## 👥 Core Team
+### 👥 Leadership
 
-<table align="center">
+<table align="center" style="border: none;">
   <tr>
-    <td align="center" width="150">
-      <a href="https://github.com/swagatambordoloi">
-        <img src="https://github.com/github.png" width="80px" style="border-radius: 50%;" alt="Lead Member"/><br />
-        <sub><b>Swagatam</b></sub>
+    <td align="center" width="160">
+      <a href="https://github.com/your-username-1">
+        <img src="https://github.com/github.png" width="70px" style="border-radius: 50%;" alt="Principal"/><br />
+        <sub><b>Member One</b></sub>
       </a><br />
-      <sub>Data Scientist</sub>
+      <sub><small>Lead Architect</small></sub>
     </td>
-    <td align="center" width="150">
+    <td align="center" width="160">
       <a href="https://github.com/your-username-2">
-        <img src="https://github.com/github.png" width="80px" style="border-radius: 50%;" alt="Co-Lead Member"/><br />
-        <sub><b>Simpi</b></sub>
+        <img src="https://github.com/github.png" width="70px" style="border-radius: 50%;" alt="Partner"/><br />
+        <sub><b>Member Two</b></sub>
       </a><br />
-      <sub>Data Analyst</sub>
+      <sub><small>Core Engineering</small></sub>
     </td>
   </tr>
 </table>
 
 ---
 
-<!-- STATS & CONNECT -->
-## 📈 Organization Stats & Connect
-
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_ORG_NAME&show_icons=true&theme=tokyonight&hide_border=true" alt="Org Stats" height="165"/>
-  <br /><br />
-
-  💌 **Reach Out**: Contact us via email or join our discussion forums.
+  <sub>Crafted with intention.</sub>
 </div>
