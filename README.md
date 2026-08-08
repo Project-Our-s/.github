@@ -61,16 +61,16 @@ Welcome! We are a collaborative team building open-source tools, intelligent app
     <td align="center" width="150">
       <a href="https://github.com/swagatambordoloi">
         <img src="https://github.com/github.png" width="80px" style="border-radius: 50%;" alt="Lead Member"/><br />
-        <sub><b>Member One</b></sub>
+        <sub><b>Swagatam</b></sub>
       </a><br />
-      <sub>Lead Architect</sub>
+      <sub>Data Scientist</sub>
     </td>
     <td align="center" width="150">
       <a href="https://github.com/your-username-2">
         <img src="https://github.com/github.png" width="80px" style="border-radius: 50%;" alt="Co-Lead Member"/><br />
-        <sub><b>Member Two</b></sub>
+        <sub><b>Simpi</b></sub>
       </a><br />
-      <sub>Core Developer</sub>
+      <sub>Data Analyst</sub>
     </td>
   </tr>
 </table>
