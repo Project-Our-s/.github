@@ -59,7 +59,7 @@ Welcome! We are a collaborative team building open-source tools, intelligent app
 <table align="center">
   <tr>
     <td align="center" width="150">
-      <a href="https://github.com/your-username-1">
+      <a href="[https://github.com/swagatambordoloi]">
         <img src="https://github.com/github.png" width="80px" style="border-radius: 50%;" alt="Lead Member"/><br />
         <sub><b>Member One</b></sub>
       </a><br />
