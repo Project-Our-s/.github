@@ -58,7 +58,7 @@ Welcome! We are a collaborative team building open-source tools, intelligent app
       ( o.o )  ~ ~ ◯ (yarn)
        > ^ <
  [ Building Project #4... ]
-
+```
 
 <!-- FEATURED & COMPLETED PROJECTS -->
 ## 🌟 Featured Projects
