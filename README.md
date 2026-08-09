@@ -43,7 +43,7 @@ Welcome! We are a collaborative team building open-source tools, intelligent app
 ---
 
 <!-- CURRENTLY BUILDING -->
-## 🚧 Currently Building
+## 🚧 Currently Building <img src="../assets/dots-loading.svg" height="26" align="center" alt="Loading Dots" />
 
 | Project | Focus & Domain | Status |
 | :--- | :--- | :---: |
