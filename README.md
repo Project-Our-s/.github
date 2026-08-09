@@ -11,9 +11,6 @@
   <a href="#-tech-stack">
     <img src="https://img.shields.io/badge/Stack-Full--Stack_|_AI-007acc?style=for-the-badge&logo=visualstudiocode" alt="Stack" />
   </a>
-  <a href="#-connect">
-    <img src="https://img.shields.io/badge/Community-Active-2ea44f?style=for-the-badge&logo=discord" alt="Community" />
-  </a>
 </div>
 
 <br />
