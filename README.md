@@ -51,7 +51,7 @@ Welcome! We are a collaborative team building open-source tools, intelligent app
 | Repository | Focus & Domain | Status |
 | :--- | :--- | :---: |
 | **[`Predictive-Maintenance-Analysis-in-Petroleum-using-ML`](https://github.com/Project-Our-s/Predictive-Maintenance-Analysis-in-Petroleum-using-ML)** | This project develops an end-to-end Predictive Maintenance and Industrial Anomaly Detection System using the 3W Dataset(Petrobars) | `Active` |
-| **[`Network-Attack-Analysis-And-Detection`](https://github.com/Project-Our-s/Predictive-Maintenance-Analysis-in-Petroleum-using-ML)** | Cross-platform mobile experience & clean UI components | `Stable` |
+| **[`Network-Attack-Analysis-And-Detection`](https://github.com/Project-Our-s/Predictive-Maintenance-Analysis-in-Petroleum-using-ML)** | This project utilizes the CIC-IDS2017dataset, a widely used benchmark for network intrusion detection, containing both normal and malicious network traffic.Attack categories such as Botnet, DDoS, DoS, Brute Force, Web Attack, Port Scan, and Infiltration with the primary focus on malicious network traffic. | `Stable` |
 | **[`IntelliWell`](https://github.com/Project-Our-s/IntelliWell-AI-Powered-Predictive-Maintenance-Production-Forecasting-for-Oil-Wells)** | IntelliWell is an AI-powered decision-support system developed for the petroleum industry to improve well monitoring, production forecasting, anomaly detection, predictive maintenance, and maintenance-report analysis.The system combines Machine Learning, Natural Language Processing (NLP), Business Intelligence, Database Technologies, and Web Technologies to analyze historical well data and maintenance reports. | `Stable` |
 
 ---
