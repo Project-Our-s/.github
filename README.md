@@ -43,12 +43,11 @@ Welcome! We are a collaborative team building open-source tools, intelligent app
 ---
 
 <!-- CURRENTLY BUILDING -->
-## <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnFlcHowYnk5ZnFvd2VwdXpwaWN1ZXdzb2F3YnV6OWo3dmpxc29mNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Lq0h93752f6J9tijrh/giphy.gif" width="38" align="center" alt="Terminal Cat" /> Currently Building
+## 🚧 Currently Building
 
 | Project | Focus & Domain | Status |
 | :--- | :--- | :---: |
-| **`project-four`** | Intelligent system architecture & active feature rollout | 🐱 `Work in Progress` |
-
+| **`project-four`** | Intelligent system architecture & active feature rollout | `🐈 Work in Progress` |
 <!-- FEATURED & COMPLETED PROJECTS -->
 ## 🌟 Featured Projects
 
