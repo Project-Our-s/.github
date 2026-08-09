@@ -50,7 +50,7 @@ Welcome! We are a collaborative team building open-source tools, intelligent app
 
 | Repository | Focus & Domain | Status |
 | :--- | :--- | :---: |
-| **`project-one`** | High-performance API backend & core engine services | `Active` |
+| **`Predictive-Maintenance-Analysis-in-Petroleum-using-ML`** | This project develops an end-to-end Predictive Maintenance and Industrial Anomaly Detection System using the 3W Dataset(Petrobars) | `Active` |
 | **`project-two`** | Cross-platform mobile experience & clean UI components | `Stable` |
 | **`project-three`** | Lightweight utility framework & automated pipeline tools | `Stable` |
 
