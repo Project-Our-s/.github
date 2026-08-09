@@ -91,7 +91,7 @@ Welcome! We are a collaborative team building open-source tools, intelligent app
 ## 📈 Organization Stats & Connect
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_ORG_NAME&show_icons=true&theme=tokyonight&hide_border=true" alt="Org Stats" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=Project-Our-s&show_icons=true&theme=tokyonight&hide_border=true" alt="Org Stats" height="165"/>
   <br /><br />
 
   💌 **Reach Out**: Contact us via email or join our discussion forums.
