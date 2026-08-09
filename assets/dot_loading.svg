@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75 26" width="75" height="26">
+  <style>
+    .bg { fill: #0d1117; stroke: #30363d; stroke-width: 1; rx: 5px; }
+    .prompt { font-family: 'Fira Code', 'Courier New', monospace; font-size: 13px; fill: #2ea44f; font-weight: bold; }
+    .dot { font-family: 'Fira Code', 'Courier New', monospace; font-size: 15px; fill: #58a6ff; font-weight: bold; }
+    
+    /* Strict 1-2-3 dot sequence */
+    @keyframes dot1-cycle {
+      0%, 100% { opacity: 1; } /* Always visible */
+    }
+    @keyframes dot2-cycle {
+      0%, 32% { opacity: 0; }
+      33%, 100% { opacity: 1; }
+    }
+    @keyframes dot3-cycle {
+      0%, 65% { opacity: 0; }
+      66%, 100% { opacity: 1; }
+    }
+    
+    .d1 { animation: dot1-cycle 1.5s infinite; }
+    .d2 { animation: dot2-cycle 1.5s infinite; }
+    .d3 { animation: dot3-cycle 1.5s infinite; }
+  </style>
+
+  <!-- Container Box -->
+  <rect width="75" height="26" class="bg" />
+
+  <!-- Terminal Prompt -->
+  <text x="8" y="17" class="prompt">&gt;</text>
+
+  <!-- Dots -->
+  <text x="24" y="17" class="dot">
+    <tspan class="d1">.</tspan><tspan class="d2">.</tspan><tspan class="d3">.</tspan>
+  </text>
+</svg>
