@@ -52,7 +52,7 @@ Welcome! We are a collaborative team building open-source tools, intelligent app
 | :--- | :--- | :---: |
 | **[`Predictive-Maintenance-Analysis-in-Petroleum-using-ML`](https://github.com/Project-Our-s/Predictive-Maintenance-Analysis-in-Petroleum-using-ML)** | This project develops an end-to-end Predictive Maintenance and Industrial Anomaly Detection System using the 3W Dataset(Petrobars) | `Active` |
 | **[`Network-Attack-Analysis-And-Detection`](https://github.com/Project-Our-s/Predictive-Maintenance-Analysis-in-Petroleum-using-ML)** | Cross-platform mobile experience & clean UI components | `Stable` |
-| **`project-three`** | Lightweight utility framework & automated pipeline tools | `Stable` |
+| **[`IntelliWell-AI-Powered-Predictive-Maintenance-Production-Forecasting-for-Oil-Wells`](https://github.com/Project-Our-s/IntelliWell-AI-Powered-Predictive-Maintenance-Production-Forecasting-for-Oil-Wells)** | Lightweight utility framework & automated pipeline tools | `Stable` |
 
 ---
 
