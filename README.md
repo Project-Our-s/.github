@@ -50,6 +50,16 @@ Welcome! We are a collaborative team building open-source tools, intelligent app
 | **`project-four`** | Intelligent system architecture & active feature rollout | <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHlhZzRreWFneTRreWFneTRreWFneTRreWFneTRreWFneSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o72EX5QZ9N9d51D5S/giphy.gif" width="30" alt="Cat playing with ball" /> `Work in Progress` |
 ---
 
+<!-- CURRENTLY BUILDING -->
+## 🚧 Currently Building
+
+```text
+       /\_/\   
+      ( o.o )  ~ ~ ◯ (yarn)
+       > ^ <
+ [ Building Project #4... ]
+
+
 <!-- FEATURED & COMPLETED PROJECTS -->
 ## 🌟 Featured Projects
 
