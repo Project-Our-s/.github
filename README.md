@@ -42,15 +42,31 @@ Welcome! We are a collaborative team building open-source tools, intelligent app
 
 ---
 
-<!-- FEATURED PROJECTS -->
+<!-- CURRENTLY BUILDING -->
+## 🚧 Currently Building
+
+| Project | Focus & Domain | Status |
+| :--- | :--- | :---: |
+| **`project-four`** | Intelligent system architecture & active feature rollout | 🐱 `Work in Progress` |
+
+---
+
+<!-- FEATURED & COMPLETED PROJECTS -->
 ## 🌟 Featured Projects
 
-| Repository | Description | Status |
+| Repository | Focus & Domain | Status |
 | :--- | :--- | :---: |
-| **[project-one](#)** | High-performance API backend built with Python & FastAPI. | `Active` |
-| **[project-two](#)** | Modern cross-platform mobile app UI built in Jetpack Compose. | `In Development` |
-| **[project-three](#)** | Lightweight utility library for automated workflow pipelines. | `Stable` |
+| **`project-one`** | High-performance API backend & core engine services | `Active` |
+| **`project-two`** | Cross-platform mobile experience & clean UI components | `Stable` |
+| **`project-three`** | Lightweight utility framework & automated pipeline tools | `Stable` |
 
+---
+
+<!-- ROADMAP & FUTURE INITIATIVES -->
+## 🔮 Future Initiatives
+
+* **Airline Management Platform**: High-concurrency booking & routing system.
+* **Agentic AI Suite**: Autonomous decision agents & task orchestration tools.
 ---
 
 <!-- TEAM MEMBERS -->
