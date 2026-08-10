@@ -88,13 +88,9 @@ Welcome! We are a collaborative team building open-source tools, intelligent app
 ---
 
 <!-- STATS & CONNECT -->
-## 📈 Organization Stats & Connect
+## 📈 Connect
 
 <div align="center">
-  <!-- Dynamic GitHub Streak & Activity Stats -->
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Project-Our-s&theme=tokyonight&hide_border=true" alt="Org Streak Stats" height="165" />
   
-  <br /><br />
-
-  💌 **Reach Out**: Contact us via email or join our GitHub discussion forums!
+  💌 **Reach Out**: Contact us via email
 </div>
