@@ -88,10 +88,13 @@ Welcome! We are a collaborative team building open-source tools, intelligent app
 ---
 
 <!-- STATS & CONNECT -->
-## 📈 Organization Stats & Connect
+## 📈 Featured Repositories & Connect
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Project-Our-s&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165" />
+  <a href="https://github.com/Project-Our-s/Predictive-Maintenance-Analysis-in-Petroleum-using-ML">
+    <img src="https://gh-card.dev/repos/Project-Our-s/Predictive-Maintenance-Analysis-in-Petroleum-using-ML.svg" alt="Featured Repo" width="420" />
+  </a>
+  
   <br /><br />
 
   💌 **Reach Out**: Contact us via email or join our GitHub discussion forums!
