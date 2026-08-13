@@ -87,6 +87,20 @@ Welcome! We are a collaborative team building open-source tools, intelligent app
 
 ---
 
+<!-- TEAM ACTIVITY SNAKES -->
+## 🐍 Team Activity & Contributions
+
+<div align="center">
+  <p><b>💙 Swagatam's Contributions</b></p>
+  <img src="https://raw.githubusercontent.com/Project-Our-s/.github/output/swagatam-snake-dark.svg" alt="Swagatam's Contribution Snake" width="100%" />
+  
+  <br /><br />
+  
+  <p><b>🌸 Simpi's Contributions</b></p>
+  <img src="https://raw.githubusercontent.com/Project-Our-s/.github/output/simpi-snake-dark.svg" alt="Simpi's Contribution Snake" width="100%" />
+</div>
+
+
 <!-- STATS & CONNECT -->
 ## 📈 Connect
 
