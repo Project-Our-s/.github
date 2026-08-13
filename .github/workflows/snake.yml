@@ -14,74 +14,24 @@ jobs:
     timeout-minutes: 10
     
     steps:
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.x'
-
-      # 1. Swagatam's Base Grid + Cyan Snake
+      # Swagatam's Snake (Cyan Snake)
       - name: Generate Swagatam's Snake SVG
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: swagatambordoloi
           outputs: |
-            swagatam-snake.svg?color_snake=#38bdf8&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
+            dist/swagatam-snake.svg?color_snake=#38bdf8&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
 
-      # 2. Simpi's Pink Snake
+      # Simpi's Snake (Pink Snake)
       - name: Generate Simpi's Snake SVG
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: simpi11-insightflow
           outputs: |
-            simpi-snake.svg?color_snake=#f472b6&color_dots=#161b22,#4a1d24,#831843,#be185d,#f43f5e
+            dist/simpi-snake.svg?color_snake=#f472b6&color_dots=#161b22,#4a1d24,#831843,#be185d,#f43f5e
 
-      # 3. Merge Simpi's Snake into Swagatam's Grid with Isolated CSS
-      - name: Merge Both Snakes Onto Single Grid
-        run: |
-          python -c '
-          import re, os
-
-          with open("swagatam-snake.svg", "r") as f:
-              base_svg = f.read()
-
-          with open("simpi-snake.svg", "r") as f:
-              simpi_svg = f.read()
-
-          # Extract style contents from Simpi SVG
-          simpi_styles_match = re.search(r"<style>(.*?)</style>", simpi_svg, re.DOTALL)
-          if simpi_styles_match:
-              simpi_css = simpi_styles_match.group(1)
-              
-              # Rename all CSS keyframes and class selectors in Simpi style to prevent collisions
-              simpi_css_prefixed = re.sub(r"([\.@])([a-zA-Z0-9_\-]+)", r"\1simpi_\2", simpi_css)
-              simpi_css_prefixed = simpi_css_prefixed.replace("@simpi_keyframes", "@keyframes")
-
-              # Extract non-grid animated snake elements from Simpi SVG
-              # Snake segments in snk are rendered in group elements containing classes or rects
-              simpi_elements = re.findall(r"(<g[^>]*class=\"[^\"]*\"[^>]*>.*?</g>)", simpi_svg, re.DOTALL)
-              
-              # Prefix class attributes in her SVG elements to match her isolated CSS rules
-              simpi_elements_prefixed = []
-              for elem in simpi_elements:
-                  if "dots" not in elem: # Exclude her grid dots so only her snake overlay remains
-                      prefixed = re.sub(r"class=\"([^\"]+)\"", lambda m: "class=\"" + " ".join(["simpi_" + c for c in m.group(1).split()]) + "\"", elem)
-                      simpi_elements_prefixed.append(prefixed)
-
-              # Inject her isolated styles into the main base SVG
-              base_svg = base_svg.replace("</style>", f"\n/* Simpi Snake Isolated Styles */\n{simpi_css_prefixed}\n</style>")
-
-              # Inject her pink snake elements before closing </svg> tag
-              if simpi_elements_prefixed:
-                  snake_overlay = "\n".join(simpi_elements_prefixed)
-                  base_svg = base_svg.replace("</svg>", f"\n<!-- Simpi Pink Snake Overlay -->\n{snake_overlay}\n</svg>")
-
-          os.makedirs("dist", exist_ok=True)
-          with open("dist/combined-snake.svg", "w") as f:
-              f.write(base_svg)
-          '
-
-      # 4. Deploy combined output
-      - name: Push Combined SVG to Output Branch
+      # Push both to output branch
+      - name: Push SVGs to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
