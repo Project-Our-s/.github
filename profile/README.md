@@ -95,7 +95,6 @@ Welcome! We are a collaborative team building open-source tools, intelligent app
   <img src="https://raw.githubusercontent.com/Project-Our-s/.github/output/combined-snake.svg" alt="Shared Contribution Snake" width="100%" />
 </div>
 
-
 <!-- STATS & CONNECT -->
 ## 📈 Connect
 
