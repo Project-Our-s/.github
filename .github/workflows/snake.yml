@@ -14,24 +14,62 @@ jobs:
     timeout-minutes: 10
     
     steps:
-      # Swagatam's Grid & Snake
+      # Set up Python to process and combine SVGs
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      # Generate Swagatam's Snake (Base Grid + Cyan Snake)
       - name: Generate Swagatam's Snake SVG
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: swagatambordoloi
           outputs: |
-            dist/swagatam-snake.svg?color_snake=#38bdf8&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
+            swagatam-snake.svg?color_snake=#38bdf8&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
 
-      # Simpi's Grid & Snake
+      # Generate Simpi's Snake (Pink Snake)
       - name: Generate Simpi's Snake SVG
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: simpi11-insightflow
           outputs: |
-            dist/simpi-snake.svg?color_snake=#f472b6&color_dots=#161b22,#4a1d24,#831843,#be185d,#f43f5e
+            simpi-snake.svg?color_snake=#f472b6&color_dots=#161b22,#4a1d24,#831843,#be185d,#f43f5e
 
-      # Deploy SVGs to Output Branch
-      - name: Push SVGs to Output Branch
+      # Merge both snakes onto the same grid
+      - name: Combine SVGs into Single Grid
+        run: |
+          python -c '
+          import re
+
+          with open("swagatam-snake.svg", "r") as f:
+              base_svg = f.read()
+
+          with open("simpi-snake.svg", "r") as f:
+              simpi_svg = f.read()
+
+          # Extract Simpi snake elements and keyframe animations
+          snake_parts = re.findall(r"(<rect[^>]*class=\"[^\"]*snake[^\"]*\"[^>]*>)", simpi_svg)
+          keyframe_styles = re.findall(r"(@keyframes[^{]+\{[^}]+\})", simpi_svg)
+
+          # Inject keyframes into the base SVG styles
+          if keyframe_styles:
+              extra_css = "\n".join(keyframe_styles)
+              base_svg = base_svg.replace("</style>", f"{extra_css}\n</style>")
+
+          # Inject her snake into the main grid container
+          if snake_parts:
+              extra_snakes = "\n".join(snake_parts)
+              base_svg = base_svg.replace("</svg>", f"{extra_snakes}\n</svg>")
+
+          import os
+          os.makedirs("dist", exist_ok=True)
+          with open("dist/combined-snake.svg", "w") as f:
+              f.write(base_svg)
+          '
+
+      # Deploy single combined SVG to output branch
+      - name: Push Combined SVG to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
