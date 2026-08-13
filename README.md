@@ -89,5 +89,5 @@ Welcome! We are a collaborative team building open-source tools, intelligent app
 
 <!-- STATS & CONNECT -->
 
-  💌 **Reach Out**: Contact us via email or join our discussion forums.
+  💌 **Reach Out**: Contact us via email.
 </div>
