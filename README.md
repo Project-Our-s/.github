@@ -88,11 +88,6 @@ Welcome! We are a collaborative team building open-source tools, intelligent app
 ---
 
 <!-- STATS & CONNECT -->
-## 📈 Organization Stats & Connect
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Project-Our-s&show_icons=true&theme=tokyonight&hide_border=true" alt="Org Stats" height="165"/>
-  <br /><br />
 
   💌 **Reach Out**: Contact us via email or join our discussion forums.
 </div>
