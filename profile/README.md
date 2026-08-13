@@ -87,15 +87,28 @@ Welcome! We are a collaborative team building open-source tools, intelligent app
 
 ---
 
-<!-- UNIFIED DUAL SNAKE GRID -->
-<!-- COMBINED CONTRIBUTION SNAKE -->
+<!-- SHARED CONTRIBUTION SPACE -->
 ## 🐍 Shared Contribution Space
 
 <div align="center">
-  <p><b>💙 Swagatam & 🌸 Simpi</b></p>
-  <img src="https://raw.githubusercontent.com/Project-Our-s/.github/output/combined-snake-dark.svg" alt="Shared Contribution Snake" width="100%" />
+  <table style="border: 1px solid #30363d; background-color: #0d1117; border-radius: 10px; padding: 10px; width: 100%;">
+    <tr>
+      <td align="center" style="border: none; padding-bottom: 5px;">
+        <span><b>💙 Swagatam</b> &nbsp;|&nbsp; <b>🌸 Simpi</b></span>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" style="border: none; padding: 5px 0;">
+        <img src="https://raw.githubusercontent.com/Project-Our-s/.github/output/swagatam-snake.svg" alt="Swagatam's Contribution Snake" width="100%" />
+      </td>
+    </tr>
+    <tr>
+      <td align="center" style="border: none; padding: 5px 0;">
+        <img src="https://raw.githubusercontent.com/Project-Our-s/.github/output/simpi-snake.svg" alt="Simpi's Contribution Snake" width="100%" />
+      </td>
+    </tr>
+  </table>
 </div>
-
 
 <!-- STATS & CONNECT -->
 ## 📈 Connect
