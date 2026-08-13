@@ -87,17 +87,22 @@ Welcome! We are a collaborative team building open-source tools, intelligent app
 
 ---
 
-<!-- TEAM ACTIVITY SNAKES -->
-## 🐍 Team Activity & Contributions
+<!-- UNIFIED DUAL SNAKE GRID -->
+## 🐍 Shared Contribution Space
 
 <div align="center">
-  <p><b>💙 Swagatam's Contributions</b></p>
-  <img src="https://raw.githubusercontent.com/Project-Our-s/.github/output/swagatam-snake-dark.svg" alt="Swagatam's Contribution Snake" width="100%" />
-  
-  <br /><br />
-  
-  <p><b>🌸 Simpi's Contributions</b></p>
-  <img src="https://raw.githubusercontent.com/Project-Our-s/.github/output/simpi-snake-dark.svg" alt="Simpi's Contribution Snake" width="100%" />
+  <table style="border: 1px solid #30363d; background-color: #0d1117; border-radius: 8px; width: 100%;">
+    <tr>
+      <td align="center" width="50%" style="border-right: 1px dashed #30363d; padding: 12px;">
+        <p><b>💙 Swagatam</b></p>
+        <img src="https://raw.githubusercontent.com/Project-Our-s/.github/output/swagatam-snake-dark.svg" alt="Swagatam's Contribution Snake" width="100%" />
+      </td>
+      <td align="center" width="50%" style="padding: 12px;">
+        <p><b>🌸 Simpi</b></p>
+        <img src="https://raw.githubusercontent.com/Project-Our-s/.github/output/simpi-snake-dark.svg" alt="Simpi's Contribution Snake" width="100%" />
+      </td>
+    </tr>
+  </table>
 </div>
 
 
