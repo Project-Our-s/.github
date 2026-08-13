@@ -14,16 +14,24 @@ jobs:
     timeout-minutes: 10
     
     steps:
-      # Combined Grid with Dual Custom Colored Snakes
-      - name: Generate Combined Snake SVG
+      # Swagatam's Grid & Snake
+      - name: Generate Swagatam's Snake SVG
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: swagatambordoloi,simpi11-insightflow
+          github_user_name: swagatambordoloi
           outputs: |
-            dist/combined-snake-dark.svg?color_snake=#38bdf8,#f472b6&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
+            dist/swagatam-snake.svg?color_snake=#38bdf8&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
 
-      # Deploy SVG to 'output' branch
-      - name: Push SVG to Output Branch
+      # Simpi's Grid & Snake
+      - name: Generate Simpi's Snake SVG
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: simpi11-insightflow
+          outputs: |
+            dist/simpi-snake.svg?color_snake=#f472b6&color_dots=#161b22,#4a1d24,#831843,#be185d,#f43f5e
+
+      # Deploy SVGs to Output Branch
+      - name: Push SVGs to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
