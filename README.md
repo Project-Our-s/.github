@@ -87,7 +87,29 @@ Welcome! We are a collaborative team building open-source tools, intelligent app
 
 ---
 
-<!-- STATS & CONNECT -->
+<!-- SHARED CONTRIBUTION SPACE -->
+## 🐍 Shared Contribution Space
 
-  💌 **Reach Out**: Contact us via email.
+<div align="center">
+  <table style="border: 1px solid #30363d; background-color: #0d1117; border-radius: 12px; padding: 12px; width: 100%;">
+    <tr>
+      <td align="center" width="50%" style="border: none; padding: 6px;">
+        <p><b>💎 Swagatam</b></p>
+        <img src="https://raw.githubusercontent.com/Project-Our-s/.github/output/swagatam-snake.svg" alt="Swagatam's Contribution Snake" width="100%" />
+      </td>
+      <td align="center" width="50%" style="border: none; padding: 6px;">
+        <p><b>🌸 Simpi</b></p>
+        <img src="https://raw.githubusercontent.com/Project-Our-s/.github/output/simpi-snake.svg" alt="Simpi's Contribution Snake" width="100%" />
+      </td>
+    </tr>
+  </table>
+</div>
+
+
+<!-- STATS & CONNECT -->
+## 📈 Connect
+
+<div align="center">
+  
+  💌 **Reach Out**: Contact us via email
 </div>
