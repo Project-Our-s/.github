@@ -14,15 +14,15 @@ jobs:
     timeout-minutes: 10
     
     steps:
-      # Swagatam's Snake (Cyan Snake)
+      # Swagatam's Snake (Cyan Snake + All-Blue Gradient Grid)
       - name: Generate Swagatam's Snake SVG
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: swagatambordoloi
           outputs: |
-            dist/swagatam-snake.svg?color_snake=#38bdf8&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
+            dist/swagatam-snake.svg?color_snake=#38bdf8&color_dots=#161b22,#032852,#0a58ca,#0d6efd,#6ea8fe
 
-      # Simpi's Snake (Pink Snake)
+      # Simpi's Snake (Pink Snake + Sakura Pink Grid)
       - name: Generate Simpi's Snake SVG
         uses: Platane/snk/svg-only@v3
         with:
@@ -30,7 +30,7 @@ jobs:
           outputs: |
             dist/simpi-snake.svg?color_snake=#f472b6&color_dots=#161b22,#4a1d24,#831843,#be185d,#f43f5e
 
-      # Push both to output branch
+      # Push both SVGs to output branch
       - name: Push SVGs to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
