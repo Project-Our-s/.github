@@ -7,13 +7,9 @@
 <!--Moto Of the Page -->
 
 <div align="center">
-  <p align="center" style="display: flex; align-items: center; justify-content: center; gap: 8px;">
-    <span>💎</span>
-    <a href="https://git.io/typing-svg">
-      <img src="https://readme-typing-svg.demolab.com?font=Sniglet&size=24&pause=1000&color=FFAFCC&center=true&vCenter=true&width=520&height=50&lines=We+are+partners+in+what+we+create.;We+build+together." alt="Typing SVG" />
-    </a>
-    <span>🌸</span>
-  </p>
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Sniglet&size=24&pause=1000&color=FFAFCC&center=true&vCenter=true&width=550&height=50&lines=We+are+partners+in+what+we+create+(%E2%97%A1%E2%80%BF%E2%97%A1)%E2%9C%A7;We+build+together+(%CB%98%E1%B4%97%CB%98)%E2%99%A1" alt="Typing SVG" />
+  </a>
 </div>
 
 <br />
