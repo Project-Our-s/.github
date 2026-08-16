@@ -3,11 +3,17 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=220&section=header&text=Welcome%20to%20Our%20Org&fontSize=42&animation=fadeIn" width="100%" alt="Header Banner" />
   
   <br />
+  
+<!--Moto Of the Page -->
 
 <div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Sniglet&size=24&pause=1000&color=FFAFCC&center=true&vCenter=true&width=520&height=50&lines=We+are+partners+in+what+we+create.;We+build+together." alt="Typing SVG" />
-  </a>
+  <p align="center" style="display: flex; align-items: center; justify-content: center; gap: 8px;">
+    <span>💎</span>
+    <a href="https://git.io/typing-svg">
+      <img src="https://readme-typing-svg.demolab.com?font=Sniglet&size=24&pause=1000&color=FFAFCC&center=true&vCenter=true&width=520&height=50&lines=We+are+partners+in+what+we+create.;We+build+together." alt="Typing SVG" />
+    </a>
+    <span>🌸</span>
+  </p>
 </div>
 
 <br />
