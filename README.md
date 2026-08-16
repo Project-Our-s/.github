@@ -7,11 +7,9 @@
 <!--Moto Of the Page -->
 
 <div align="center">
-  🌸
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Sniglet&size=24&pause=1000&color=FFAFCC&center=true&vCenter=true&width=500&height=45&lines=We+are+partners+in+what+we+create.;We+build+together." alt="Typing SVG" style="vertical-align: middle;" />
+    <img src="https://readme-typing-svg.demolab.com?font=Sniglet&size=24&pause=1000&color=FFAFCC&center=true&vCenter=true&width=520&height=50&lines=We+are+partners+in+what+we+create.;We+build+together." alt="Typing SVG" />
   </a>
-  ✨
 </div>
 
 <br />
