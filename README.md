@@ -4,12 +4,23 @@
   
   <br />
 
- <div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Pacifico&pause=1000&color=FFAFCC&center=true&vCenter=true&width=500&lines=We+are+partners+in+what+we+create.;We+build+together." alt="Typing SVG" />
-  </a>
+<!-- CUTE TEXT BUBBLE ANIMATION -->
+<div align="center">
+  <div style="background: linear-gradient(135deg, #FFFAF0 0%, #FFF0F5 100%); 
+              border: 1.5px solid #FFC0CB; 
+              border-radius: 20px; 
+              padding: 10px 20px; 
+              display: inline-block; 
+              box-shadow: 0px 4px 10px rgba(255, 182, 193, 0.3);
+              max-width: 550px;
+              margin: 10px auto;">
+    
+    <!-- CUSTOMIZED CUTE GLOWING TYPING SVG -->
+    <a href="https://git.io/typing-svg">
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=6F42C1&background=FFFFFF00&center=true&vCenter=true&width=500&lines=We+are+partners+in+what+we+create.;We+build+together." alt="Typing SVG with subtle bubble" />
+    </a>
+  </div>
 </div>
-
 
 <br />
 
