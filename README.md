@@ -4,11 +4,13 @@
   
   <br />
 
-  <div align="center">
+ <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=6F42C1&center=true&vCenter=true&width=500&lines=We+are+partners+in+what+we+create.;We+build+together." alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Pacifico&pause=1000&color=FFAFCC&center=true&vCenter=true&width=500&lines=We+are+partners+in+what+we+create.;We+build+together." alt="Typing SVG" />
   </a>
 </div>
+
+
 <br />
 
   <!-- BADGES -->
